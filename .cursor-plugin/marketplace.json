@@ -53,9 +53,19 @@
       "source": "third_party/brevo"
     },
     {
+      "name": "brightcove",
+      "description": "Connect AI assistants to your Brightcove account to work with videos, players, live streams, analytics and other resources your account is entitled to.",
+      "source": "third_party/brightcove"
+    },
+    {
       "name": "cashfree",
       "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree.",
       "source": "third_party/cashfree"
+    },
+    {
+      "name": "chartmogul",
+      "description": "Access your ChartMogul revenue metrics, customer data and sales pipeline: MRR, ARR, churn, retention, cohorts, subscriptions and customer activity.",
+      "source": "third_party/chartmogul"
     },
     {
       "name": "clickhouse",
@@ -386,6 +396,11 @@
       "name": "sentry",
       "description": "Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry.",
       "source": "third_party/sentry"
+    },
+    {
+      "name": "shippo",
+      "description": "Ship packages with Shippo: compare carrier rates, buy labels, validate addresses, track packages, handle customs and process batches from your agent.",
+      "source": "third_party/shippo"
     },
     {
       "name": "shopify",

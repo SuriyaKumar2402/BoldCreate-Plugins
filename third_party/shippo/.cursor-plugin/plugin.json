@@ -1,0 +1,36 @@
+{
+  "name": "shippo",
+  "displayName": "Shippo",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Ship packages with Shippo: compare carrier rates, buy labels, validate addresses, track packages, handle customs and process batches from your agent.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://docs.goshippo.com/guides/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "shippo",
+    "shipping",
+    "labels",
+    "rates",
+    "tracking",
+    "address-validation",
+    "customs",
+    "logistics",
+    "mcp",
+    "skills"
+  ],
+  "category": "business-operations",
+  "tags": [
+    "business-operations",
+    "mcp",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

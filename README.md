@@ -57,7 +57,9 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `bird` | [Bird](third_party/bird/) | Communication | Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication. |
 | `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk. |
 | `brevo` | [Brevo](third_party/brevo/) | Communication | Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language. |
+| `brightcove` | [Brightcove](third_party/brightcove/) | Design | Connect AI assistants to your Brightcove account to work with videos, players, live streams, analytics and other resources your account is entitled to. |
 | `cashfree` | [Cashfree](third_party/cashfree/) | Payments | Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree. |
+| `chartmogul` | [ChartMogul](third_party/chartmogul/) | Analytics | Access your ChartMogul revenue metrics, customer data and sales pipeline: MRR, ARR, churn, retention, cohorts, subscriptions and customer activity. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
 | `cloudinary` | [Cloudinary](third_party/cloudinary/) | Design | Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language. |
 | `coingecko` | [CoinGecko](third_party/coingecko/) | Finance | Connect AI agents to real-time crypto data via the CoinGecko MCP Server. |
@@ -124,6 +126,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `ringcentral` | [RingCentral](third_party/ringcentral/) | Communication | Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards. |
 | `roboflow` | [Roboflow](third_party/roboflow/) | AI | Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment. |
 | `sentry` | [Sentry](third_party/sentry/) | Observability | Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry. |
+| `shippo` | [Shippo](third_party/shippo/) | Business Operations | Ship packages with Shippo: compare carrier rates, buy labels, validate addresses, track packages, handle customs and process batches from your agent. |
 | `shopify` | [Shopify](third_party/shopify/) | Business Operations | Create and manage your store with Shopify. |
 | `slack` | [Slack](third_party/slack/) | Productivity | Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps. |
 | `square` | [Square](third_party/square/) | Payments | Work with payments, orders, catalog, customers, and invoices. |
