@@ -33,6 +33,11 @@
       "description": "Search AWS documentation, API references, and regional availability."
     },
     {
+      "name": "bird",
+      "source": "./third_party/bird",
+      "description": "Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication."
+    },
+    {
       "name": "boldcreate-toolkit",
       "source": "./boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
@@ -248,6 +253,11 @@
       "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place."
     },
     {
+      "name": "greenhouse",
+      "source": "./third_party/greenhouse",
+      "description": "Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions."
+    },
+    {
       "name": "harness",
       "source": "./third_party/harness",
       "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security."
@@ -318,6 +328,11 @@
       "description": "Search your Notion workspace, create and edit pages, and manage databases."
     },
     {
+      "name": "onesignal",
+      "source": "./third_party/onesignal",
+      "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app."
+    },
+    {
       "name": "pagerduty",
       "source": "./third_party/pagerduty",
       "description": "Browse PagerDuty services, incidents, and change events."
@@ -343,6 +358,11 @@
       "description": "Work with your Razorpay account: payments, orders, refunds, payment links, and settlements."
     },
     {
+      "name": "remote",
+      "source": "./third_party/remote",
+      "description": "Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports."
+    },
+    {
       "name": "render",
       "source": "./third_party/render",
       "description": "Inspect Render services, deploys, and logs."
@@ -351,6 +371,11 @@
       "name": "replit",
       "source": "./third_party/replit",
       "description": "Turn ideas into apps and websites instantly."
+    },
+    {
+      "name": "ringcentral",
+      "source": "./third_party/ringcentral",
+      "description": "Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards."
     },
     {
       "name": "roboflow",

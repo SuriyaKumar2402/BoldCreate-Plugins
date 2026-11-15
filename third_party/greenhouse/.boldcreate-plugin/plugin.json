@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "greenhouse",
+  "displayName": "Greenhouse",
+  "version": "0.1.0",
+  "description": "Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://support.greenhouse.io/hc/en-us/articles/52090956642075-Greenhouse-MCP",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "business-operations",
+  "keywords": [
+    "greenhouse",
+    "recruiting",
+    "ats",
+    "hiring",
+    "candidates",
+    "interviews",
+    "scorecards",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "stage": "beta",
+  "docs": "https://support.greenhouse.io/hc/en-us/articles/52090956642075-Greenhouse-MCP",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "greenhouse",
+        "transport": "streamable-http",
+        "url": "https://mcp.greenhouse.io/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.greenhouse.io/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://auth.greenhouse.io lists a registration endpoint and S256 PKCE"
+  }
+}

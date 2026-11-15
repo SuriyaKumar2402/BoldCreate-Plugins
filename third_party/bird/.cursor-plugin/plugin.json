@@ -1,0 +1,37 @@
+{
+  "name": "bird",
+  "displayName": "Bird",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://bird.com/docs/ai/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "bird",
+    "messagebird",
+    "email",
+    "sms",
+    "whatsapp",
+    "voice",
+    "verify",
+    "webhooks",
+    "email-authentication",
+    "mcp",
+    "skills"
+  ],
+  "category": "communication",
+  "tags": [
+    "communication",
+    "mcp",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

@@ -54,6 +54,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `android-management` | [Android Management](third_party/android-management/) | Devices | Manage enterprise Android devices, policies, and apps with the Android Management API. |
 | `atlassian` | [Atlassian (Jira + Confluence)](third_party/atlassian/) | Project Management | Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools. |
 | `aws-knowledge` | [AWS Knowledge](third_party/aws-knowledge/) | Documentation | Search AWS documentation, API references, and regional availability. |
+| `bird` | [Bird](third_party/bird/) | Communication | Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication. |
 | `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk. |
 | `brevo` | [Brevo](third_party/brevo/) | Communication | Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language. |
 | `cashfree` | [Cashfree](third_party/cashfree/) | Payments | Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree. |
@@ -96,6 +97,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `google-slides` | [Google Slides](third_party/google-slides/) | Productivity | Read, create, and edit Google Slides presentations. |
 | `google-stitch` | [Stitch](third_party/google-stitch/) | Design | Generate UI designs and front-end code with Google Stitch. |
 | `google-workspace-search` | [Google Workspace Search](third_party/google-workspace-search/) | Productivity | Search across Gmail, Drive, Calendar, and other Google Workspace content in one place. |
+| `greenhouse` | [Greenhouse](third_party/greenhouse/) | Business Operations | Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions. |
 | `harness` | [Harness](third_party/harness/) | Developer Tools | Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security. |
 | `hubspot` | [HubSpot](third_party/hubspot/) | CRM | Secure read and write access to your HubSpot CRM data — contacts, deals, engagements, and more. |
 | `huggingface` | [Hugging Face](third_party/huggingface/) | AI | Search Hugging Face for models, datasets, and spaces. |
@@ -110,13 +112,16 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `netlify` | [Netlify](third_party/netlify/) | Hosting | Create, deploy, manage, and secure websites on Netlify. |
 | `neon` | [Neon](third_party/neon/) | Database | Manage Neon serverless Postgres projects, branches, queries, and migrations. |
 | `notion` | [Notion](third_party/notion/) | Documentation | Search your Notion workspace, create and edit pages, and manage databases. |
+| `onesignal` | [OneSignal](third_party/onesignal/) | Communication | Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app. |
 | `pagerduty` | [PagerDuty](third_party/pagerduty/) | Incident Management | Browse PagerDuty services, incidents, and change events. |
 | `pipedrive` | [Pipedrive](third_party/pipedrive/) | CRM | Find deals, update records, manage activities and work with your live CRM data using natural language. |
 | `posthog` | [PostHog](third_party/posthog/) | Analytics | Query product analytics, manage feature flags, and investigate errors in PostHog. |
 | `railway` | [Railway](third_party/railway/) | Developer Tools | Deploy, manage, and debug your apps and infrastructure on Railway. |
 | `razorpay` | [Razorpay](third_party/razorpay/) | Payments | Work with your Razorpay account: payments, orders, refunds, payment links, and settlements. |
+| `remote` | [Remote](third_party/remote/) | Business Operations | Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports. |
 | `render` | [Render](third_party/render/) | Hosting | Inspect Render services, deploys, and logs. |
 | `replit` | [Replit](third_party/replit/) | Developer Tools | Turn ideas into apps and websites instantly. |
+| `ringcentral` | [RingCentral](third_party/ringcentral/) | Communication | Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards. |
 | `roboflow` | [Roboflow](third_party/roboflow/) | AI | Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment. |
 | `sentry` | [Sentry](third_party/sentry/) | Observability | Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry. |
 | `shopify` | [Shopify](third_party/shopify/) | Business Operations | Create and manage your store with Shopify. |

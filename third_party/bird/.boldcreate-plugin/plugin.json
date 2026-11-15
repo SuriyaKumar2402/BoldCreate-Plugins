@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "bird",
+  "displayName": "Bird",
+  "version": "0.1.0",
+  "description": "Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://bird.com/docs/ai/mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "communication",
+  "keywords": [
+    "bird",
+    "messagebird",
+    "email",
+    "sms",
+    "whatsapp",
+    "voice",
+    "verify",
+    "webhooks",
+    "email-authentication",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://bird.com/docs/ai/mcp-server",
+  "upstream": {
+    "repository": "https://github.com/messagebird/bird-ai",
+    "path": "plugins/bird/skills",
+    "commit": "ffcce97009774ae2709512e86d9d2a5d1dc2831f",
+    "author": "Bird",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "bird",
+        "transport": "streamable-http",
+        "url": "https://mcp.bird.com",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "email-audit"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-13",
+    "source": "live probe of https://mcp.bird.com: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://platform.bird.com lists a registration endpoint and S256 PKCE"
+  }
+}

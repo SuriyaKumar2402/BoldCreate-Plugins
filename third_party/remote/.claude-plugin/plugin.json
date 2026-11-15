@@ -1,0 +1,30 @@
+{
+  "name": "remote",
+  "displayName": "Remote",
+  "version": "0.1.0",
+  "description": "Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://developer.remote.com/docs/introduction-to-remote-mcp",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "remote",
+    "hr",
+    "payroll",
+    "employment",
+    "contractors",
+    "time-off",
+    "global-employment",
+    "mcp",
+    "skills"
+  ],
+  "icon": "./assets/logo.png",
+  "mcpServers": {
+    "remote": {
+      "type": "http",
+      "url": "https://mcp.remote.com/mcp"
+    }
+  }
+}

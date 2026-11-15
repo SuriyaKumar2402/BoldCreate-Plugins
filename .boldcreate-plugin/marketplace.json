@@ -131,6 +131,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "bird",
+      "displayName": "Bird",
+      "version": "0.1.0",
+      "description": "Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication.",
+      "source": "third_party/bird",
+      "logo": "third_party/bird/assets/logo.png",
+      "category": "communication",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "boldcreate-toolkit",
       "displayName": "BoldCreate Toolkit",
       "version": "0.7.1",
@@ -1165,6 +1190,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "greenhouse",
+      "displayName": "Greenhouse",
+      "version": "0.1.0",
+      "description": "Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions.",
+      "source": "third_party/greenhouse",
+      "logo": "third_party/greenhouse/assets/logo.png",
+      "category": "business-operations",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "harness",
       "displayName": "Harness",
       "version": "0.1.0",
@@ -1507,6 +1556,32 @@
       "supportedByGateway": true
     },
     {
+      "name": "onesignal",
+      "displayName": "OneSignal",
+      "version": "0.1.0",
+      "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app.",
+      "source": "third_party/onesignal",
+      "logo": "third_party/onesignal/assets/logo.png",
+      "category": "communication",
+      "components": [
+        "mcp",
+        "skills",
+        "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "pagerduty",
       "displayName": "PagerDuty",
       "version": "0.1.0",
@@ -1627,6 +1702,31 @@
       "supportedByGateway": true
     },
     {
+      "name": "remote",
+      "displayName": "Remote",
+      "version": "0.1.0",
+      "description": "Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports.",
+      "source": "third_party/remote",
+      "logo": "third_party/remote/assets/logo.png",
+      "category": "business-operations",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "render",
       "displayName": "Render",
       "version": "0.1.0",
@@ -1660,6 +1760,31 @@
       "category": "developer-tools",
       "components": [
         "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "ringcentral",
+      "displayName": "RingCentral",
+      "version": "0.1.0",
+      "description": "Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards.",
+      "source": "third_party/ringcentral",
+      "logo": "third_party/ringcentral/assets/logo.svg",
+      "category": "communication",
+      "components": [
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"

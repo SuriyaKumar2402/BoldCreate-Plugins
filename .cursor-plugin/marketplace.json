@@ -33,6 +33,11 @@
       "source": "third_party/aws-knowledge"
     },
     {
+      "name": "bird",
+      "description": "Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication.",
+      "source": "third_party/bird"
+    },
+    {
       "name": "boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
       "source": "boldcreate-toolkit"
@@ -248,6 +253,11 @@
       "source": "third_party/google-workspace-search"
     },
     {
+      "name": "greenhouse",
+      "description": "Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions.",
+      "source": "third_party/greenhouse"
+    },
+    {
       "name": "harness",
       "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
       "source": "third_party/harness"
@@ -318,6 +328,11 @@
       "source": "third_party/notion"
     },
     {
+      "name": "onesignal",
+      "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app.",
+      "source": "third_party/onesignal"
+    },
+    {
       "name": "pagerduty",
       "description": "Browse PagerDuty services, incidents, and change events.",
       "source": "third_party/pagerduty"
@@ -343,6 +358,11 @@
       "source": "third_party/razorpay"
     },
     {
+      "name": "remote",
+      "description": "Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports.",
+      "source": "third_party/remote"
+    },
+    {
       "name": "render",
       "description": "Inspect Render services, deploys, and logs.",
       "source": "third_party/render"
@@ -351,6 +371,11 @@
       "name": "replit",
       "description": "Turn ideas into apps and websites instantly.",
       "source": "third_party/replit"
+    },
+    {
+      "name": "ringcentral",
+      "description": "Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards.",
+      "source": "third_party/ringcentral"
     },
     {
       "name": "roboflow",
