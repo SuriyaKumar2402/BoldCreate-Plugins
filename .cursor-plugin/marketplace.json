@@ -68,9 +68,19 @@
       "source": "third_party/chartmogul"
     },
     {
+      "name": "clerk",
+      "description": "Connect agents to Clerk to manage applications, instance settings, users, organizations and domains from your Clerk workspace.",
+      "source": "third_party/clerk"
+    },
+    {
       "name": "clickhouse",
       "description": "Query and explore your ClickHouse Cloud data.",
       "source": "third_party/clickhouse"
+    },
+    {
+      "name": "close",
+      "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records.",
+      "source": "third_party/close"
     },
     {
       "name": "cloudinary",
@@ -101,6 +111,11 @@
       "name": "exa",
       "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
       "source": "third_party/exa"
+    },
+    {
+      "name": "expensify",
+      "description": "Connect agents to Expensify to analyze spending, compare periods, and get plain-English summaries of expense data.",
+      "source": "third_party/expensify"
     },
     {
       "name": "figma",
@@ -526,6 +541,11 @@
       "name": "tavily",
       "description": "Web search, content extraction, crawling, deep research, and URL discovery.",
       "source": "third_party/tavily"
+    },
+    {
+      "name": "todoist",
+      "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects.",
+      "source": "third_party/todoist"
     },
     {
       "name": "twelve-data",

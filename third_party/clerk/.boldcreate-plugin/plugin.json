@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "clerk",
+  "displayName": "Clerk",
+  "version": "0.1.0",
+  "description": "Connect agents to Clerk to manage applications, instance settings, users, organizations and domains from your Clerk workspace.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "keywords": [
+    "clerk",
+    "authentication",
+    "auth",
+    "users",
+    "organizations",
+    "applications",
+    "mcp"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server",
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "clerk",
+        "transport": "streamable-http",
+        "url": "https://mcp.clerk.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-15",
+    "source": "live probe of https://mcp.clerk.com/mcp: unauthenticated initialize returned HTTP 401 with WWW-Authenticate Bearer and a resource_metadata link; authorization server metadata at https://clerk.clerk.com lists a registration endpoint and S256 PKCE"
+  }
+}

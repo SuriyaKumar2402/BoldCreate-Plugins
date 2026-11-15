@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/boldcreate-plugin.schema.json",
+  "name": "expensify",
+  "displayName": "Expensify",
+  "version": "0.1.0",
+  "description": "Connect agents to Expensify to analyze spending, compare periods, and get plain-English summaries of expense data.",
+  "author": {
+    "name": "Syncfusion"
+  },
+  "homepage": "https://github.com/Expensify/expensify-plugin",
+  "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "finance",
+  "keywords": [
+    "expensify",
+    "expenses",
+    "finance",
+    "spend",
+    "reports",
+    "accounting",
+    "mcp",
+    "skills"
+  ],
+  "hostedBy": "vendor",
+  "docs": "https://github.com/Expensify/expensify-plugin",
+  "upstream": {
+    "repository": "https://github.com/Expensify/expensify-plugin",
+    "path": "skills",
+    "commit": "b8dfd6cd2036028747a5afa4237b2b37c2b89886",
+    "author": "Expensify",
+    "license": "MIT"
+  },
+  "rollout": {
+    "phase": 1,
+    "wave": "B"
+  },
+  "supportedByGateway": true,
+  "variables": {},
+  "components": {
+    "mcp": [
+      {
+        "name": "expensify",
+        "transport": "streamable-http",
+        "url": "https://www.expensify.com/mcp",
+        "auth": {
+          "type": "oauth",
+          "alternatives": []
+        }
+      }
+    ],
+    "skills": [
+      "flux-analysis",
+      "spend-brief"
+    ],
+    "rules": [],
+    "hooks": [],
+    "agents": [],
+    "commands": []
+  },
+  "endpointCheck": {
+    "lastLiveCheck": "2026-11-15",
+    "source": "live probe of https://www.expensify.com/mcp: unauthenticated initialize returned HTTP 308 to the same path with a trailing slash, then HTTP 401 with a Bearer challenge and a resource_metadata link; authorization server metadata at https://www.expensify.com lists a registration endpoint and S256 PKCE"
+  }
+}

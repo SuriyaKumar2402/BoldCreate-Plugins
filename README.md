@@ -60,13 +60,16 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `brightcove` | [Brightcove](third_party/brightcove/) | Design | Connect AI assistants to your Brightcove account to work with videos, players, live streams, analytics and other resources your account is entitled to. |
 | `cashfree` | [Cashfree](third_party/cashfree/) | Payments | Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree. |
 | `chartmogul` | [ChartMogul](third_party/chartmogul/) | Analytics | Access your ChartMogul revenue metrics, customer data and sales pipeline: MRR, ARR, churn, retention, cohorts, subscriptions and customer activity. |
+| `clerk` | [Clerk](third_party/clerk/) | Developer Tools | Connect agents to Clerk to manage applications, instance settings, users, organizations and domains from your Clerk workspace. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
+| `close` | [Close](third_party/close/) | CRM | Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records. |
 | `cloudinary` | [Cloudinary](third_party/cloudinary/) | Design | Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language. |
 | `coingecko` | [CoinGecko](third_party/coingecko/) | Finance | Connect AI agents to real-time crypto data via the CoinGecko MCP Server. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `datadog` | [Datadog](third_party/datadog/) | Observability | Query Datadog logs, metrics, traces, incidents, and monitors. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
 | `exa` | [Exa](third_party/exa/) | AI | Connect AI agents to Exa for web search, content fetching, and multi-step research. |
+| `expensify` | [Expensify](third_party/expensify/) | Finance | Connect agents to Expensify to analyze spending, compare periods, and get plain-English summaries of expense data. |
 | `figma` | [Figma](third_party/figma/) | Design | Give AI agents the design context to generate code from your Figma files, and write native Figma content back to the canvas. |
 | `firecrawl` | [Firecrawl](third_party/firecrawl/) | AI | Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor. |
 | `freshbooks` | [FreshBooks](third_party/freshbooks/) | Finance | Check profit, cash, invoices, clients, and more in your FreshBooks account. |
@@ -134,6 +137,7 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `supabase` | [Supabase](third_party/supabase/) | Database | Connect AI assistants to your Supabase project to manage tables, fetch config, and query them. |
 | `swagger` | [Swagger](third_party/swagger/) | Developer Tools | Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals. |
 | `tavily` | [Tavily](third_party/tavily/) | AI | Web search, content extraction, crawling, deep research, and URL discovery. |
+| `todoist` | [Todoist](third_party/todoist/) | Productivity | Connect agents to Todoist to read, add and change tasks, and to reorganize projects. |
 | `twelve-data` | [Twelve Data](third_party/twelve-data/) | Finance | Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings. |
 | `twilio` | [Twilio](third_party/twilio/) | Communication | Search Twilio documentation and API specifications, with 57 Twilio and SendGrid skills. |
 | `vercel` | [Vercel](third_party/vercel/) | Hosting | Search Vercel documentation, manage projects, inspect deployments, and query Web Analytics. |

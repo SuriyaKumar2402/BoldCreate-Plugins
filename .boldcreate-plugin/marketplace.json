@@ -299,6 +299,30 @@
       "supportedByGateway": true
     },
     {
+      "name": "clerk",
+      "displayName": "Clerk",
+      "version": "0.1.0",
+      "description": "Connect agents to Clerk to manage applications, instance settings, users, organizations and domains from your Clerk workspace.",
+      "source": "third_party/clerk",
+      "logo": "third_party/clerk/assets/logo.svg",
+      "category": "developer-tools",
+      "components": [
+        "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
       "name": "clickhouse",
       "displayName": "ClickHouse",
       "version": "0.1.0",
@@ -308,6 +332,31 @@
       "category": "analytics",
       "components": [
         "mcp"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "close",
+      "displayName": "Close",
+      "version": "0.1.0",
+      "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records.",
+      "source": "third_party/close",
+      "logo": "third_party/close/assets/logo.svg",
+      "category": "crm",
+      "components": [
+        "mcp",
+        "skills"
       ],
       "transports": [
         "streamable-http"
@@ -451,6 +500,31 @@
       "source": "third_party/exa",
       "logo": "third_party/exa/assets/logo.svg",
       "category": "ai",
+      "components": [
+        "mcp",
+        "skills"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "expensify",
+      "displayName": "Expensify",
+      "version": "0.1.0",
+      "description": "Connect agents to Expensify to analyze spending, compare periods, and get plain-English summaries of expense data.",
+      "source": "third_party/expensify",
+      "logo": "third_party/expensify/assets/logo.png",
+      "category": "finance",
       "components": [
         "mcp",
         "skills"
@@ -2424,6 +2498,30 @@
         "mcp",
         "skills",
         "rules"
+      ],
+      "transports": [
+        "streamable-http"
+      ],
+      "auth": [
+        "oauth"
+      ],
+      "requiresSecrets": false,
+      "rollout": {
+        "phase": 1,
+        "wave": "B"
+      },
+      "supportedByGateway": true
+    },
+    {
+      "name": "todoist",
+      "displayName": "Todoist",
+      "version": "0.1.0",
+      "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects.",
+      "source": "third_party/todoist",
+      "logo": "third_party/todoist/assets/logo.png",
+      "category": "productivity",
+      "components": [
+        "mcp"
       ],
       "transports": [
         "streamable-http"
