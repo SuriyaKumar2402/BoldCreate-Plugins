@@ -20,7 +20,7 @@
     "mcp",
     "skills"
   ],
-  "icon": "./assets/logo.png",
+  "icon": "./assets/logo.svg",
   "mcpServers": {
     "roboflow": {
       "type": "http",

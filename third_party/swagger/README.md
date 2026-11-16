@@ -79,7 +79,7 @@ The folder's hash was compared with the one GitHub returns for `plugins/cursor/r
 
 ## Logo
 
-The Swagger mark from SmartBear's Cursor plugin, scaled to fit on a white tile with its proportions kept. It is SmartBear's mark and a trademark of its owner. It is not covered by the MIT licence.
+The Swagger mark from the `swagger-api` organisation avatar on GitHub, scaled and centred on a white tile. Its green and navy colours match the icon that swagger.io publishes. It is Swagger's own mark and a trademark of its owner. It is not covered by the MIT licence. I could not view the logo.
 
 ## License
 

@@ -12,7 +12,7 @@
   "homepage": "https://docs.roboflow.com/agents/mcp-server",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
-  "logo": "assets/logo.png",
+  "logo": "assets/logo.svg",
   "keywords": [
     "roboflow",
     "computer-vision",

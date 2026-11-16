@@ -57,7 +57,7 @@ Roboflow says each tool declares the scopes it needs, and the client only gets t
 
 ## Skills
 
-The `skills/` folder holds the 13 agent skills published in [roboflow/computer-vision-skills](https://github.com/roboflow/computer-vision-skills/tree/c4263a7e5a5d79d7e2473b22e802f94de6c0bd4c/skills) at commit `c4263a7e5a5d79d7e2473b22e802f94de6c0bd4c`, copied unchanged. The source is licensed under Apache-2.0. The original licence text is in `skills/LICENSE`. The folder hashes and the licence file were compared with the values GitHub returns for that commit, and all matched.
+The `skills/` folder holds 11 of the 13 agent skills published in [roboflow/computer-vision-skills](https://github.com/roboflow/computer-vision-skills/tree/c4263a7e5a5d79d7e2473b22e802f94de6c0bd4c/skills) at commit `c4263a7e5a5d79d7e2473b22e802f94de6c0bd4c`, copied unchanged. The source is licensed under Apache-2.0. The original licence text is in `skills/LICENSE`. The folder hashes and the licence file were compared with the values GitHub returns for that commit, and all matched.
 
 | Skill | What Roboflow says it is for |
 | --- | --- |
@@ -67,9 +67,7 @@ The `skills/` folder holds the 13 agent skills published in [roboflow/computer-v
 | `roboflow-cloud-storage` | Mirror images from S3 or Google Cloud Storage into a workspace. |
 | `roboflow-custom-weights-upload` | Upload locally trained model weights. |
 | `roboflow-data-management` | Upload, label and organise datasets. |
-| `roboflow-inference` | Run inference and Workflows, compare deployment options. |
 | `roboflow-model-journey` | Choose a model, try it, and put it on a project's live endpoint. |
-| `roboflow-plans-and-pricing` | Answer questions about plans and credits. |
 | `roboflow-product-navigation` | Say where features live in the Roboflow web app. |
 | `roboflow-training-and-evaluation` | Train models, diagnose weak results, improve accuracy. |
 | `roboflow-universe` | Search and use public datasets and models on Roboflow Universe. |
@@ -77,15 +75,14 @@ The `skills/` folder holds the 13 agent skills published in [roboflow/computer-v
 
 Roboflow serves these same skills as resources on the MCP server, so an agent connected to the server can read them there too.
 
-**Commands and scripts in the skills.**
+**Commands in the skills.** Four of the remaining skills (`roboflow-api-reference`, `roboflow-batch-processing`, `roboflow-custom-weights-upload` and `roboflow-data-management`) tell the agent to install Python packages with `pip install`, such as `roboflow`, `inference-sdk` and `inference-cli`. `roboflow-custom-weights-upload` and `roboflow-batch-processing` expect an API key in the environment for the Python tools. Do not paste a key into the chat. The remaining skills contain no scripts and no `curl | sh` commands. The files were copied unchanged and were not run.
 
-- Several skills tell the agent to install Python packages, such as `pip install roboflow`, `inference-sdk`, `inference-cli` and `inference`. `roboflow-inference/local-tooling.md` also shows `curl -LsSf https://astral.sh/uv/install.sh | sh` for installing `uv`, and it tells the agent to ask which Python environment to use and to get the user's confirmation before installing anything.
-- `roboflow-inference/bin/poll_batch_job.py` polls a batch job. It imports `inference_cli`, reads `ROBOFLOW_API_KEY` from the environment, and has no raw network code of its own.
-- `roboflow-plans-and-pricing/scripts/render_pricing.py` fills a text template from a JSON file. It uses only the Python standard library and no network.
-- `roboflow-plans-and-pricing` tells the agent to open `https://roboflow.com/pricing` and `https://roboflow.com/credits` at answer time and not to guess prices.
-- `roboflow-custom-weights-upload` and `roboflow-batch-processing` expect an API key in the environment for the Python tools. Do not paste a key into the chat.
+**Left out.** Two of Roboflow's 13 skills are not in this plugin:
 
-Relative links inside the skills were checked, and none are broken. The files were copied unchanged and were not run.
+- `roboflow-inference` ships a Python script (`bin/poll_batch_job.py`) and shows `curl -LsSf https://astral.sh/uv/install.sh | sh` to install a program.
+- `roboflow-plans-and-pricing` ships a Python script (`scripts/render_pricing.py`).
+
+Roboflow serves the same skills as resources on the MCP server, so an agent connected to the server can still read them there. A few of the remaining skills link to these two, so those links do not resolve inside this plugin.
 
 **Not included.** Roboflow's repository also holds a Claude Code manifest, a Codex manifest, a ChatGPT package, a Microsoft Copilot Cowork package, release scripts and agent install scripts. They are not used here. The repository's `skills` folder also has no `roboflow-apps` skills, which the server lists as resources for its interactive apps.
 
@@ -98,7 +95,7 @@ Relative links inside the skills were checked, and none are broken. The files we
 
 ## Logo
 
-Roboflow's icon from the `chatgpt/plugin/assets` folder of its plugin repository, centred on a white tile. It is Roboflow's own mark and a trademark of its owner. It is not covered by the licence of the skills. I did not view the logo.
+Roboflow's site icon (`roboflow.com/icon.svg`), centred on a white tile. It is Roboflow's own mark and a trademark of its owner. It is not covered by the licence of the skills. I could not view the logo.
 
 ## License
 

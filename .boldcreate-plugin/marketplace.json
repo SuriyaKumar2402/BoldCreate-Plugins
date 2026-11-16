@@ -1461,7 +1461,7 @@
       "version": "0.1.0",
       "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment.",
       "source": "third_party/roboflow",
-      "logo": "third_party/roboflow/assets/logo.png",
+      "logo": "third_party/roboflow/assets/logo.svg",
       "category": "ai",
       "components": [
         "mcp",
