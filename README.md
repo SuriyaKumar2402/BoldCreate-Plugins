@@ -49,27 +49,17 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 
 | `name` | Plugin | Category | `description` |
 |:-------|:-------|:---------|:-------------------------------------|
-| `alpha-vantage` | [Alpha Vantage](third_party/alpha-vantage/) | Finance | Real-time and historical stock market data from Alpha Vantage. |
 | `amplitude` | [Amplitude](third_party/amplitude/) | Analytics | Query Amplitude product analytics, charts, and experiments. |
 | `android-management` | [Android Management](third_party/android-management/) | Devices | Manage enterprise Android devices, policies, and apps with the Android Management API. |
 | `atlassian` | [Atlassian (Jira + Confluence)](third_party/atlassian/) | Project Management | Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools. |
 | `aws-knowledge` | [AWS Knowledge](third_party/aws-knowledge/) | Documentation | Search AWS documentation, API references, and regional availability. |
-| `bird` | [Bird](third_party/bird/) | Communication | Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication. |
 | `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk. |
-| `brevo` | [Brevo](third_party/brevo/) | Communication | Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language. |
-| `brightcove` | [Brightcove](third_party/brightcove/) | Design | Connect AI assistants to your Brightcove account to work with videos, players, live streams, analytics and other resources your account is entitled to. |
-| `cashfree` | [Cashfree](third_party/cashfree/) | Payments | Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree. |
-| `chartmogul` | [ChartMogul](third_party/chartmogul/) | Analytics | Access your ChartMogul revenue metrics, customer data and sales pipeline: MRR, ARR, churn, retention, cohorts, subscriptions and customer activity. |
-| `clerk` | [Clerk](third_party/clerk/) | Developer Tools | Connect agents to Clerk to manage applications, instance settings, users, organizations and domains from your Clerk workspace. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
 | `close` | [Close](third_party/close/) | CRM | Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records. |
-| `cloudinary` | [Cloudinary](third_party/cloudinary/) | Design | Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language. |
-| `coingecko` | [CoinGecko](third_party/coingecko/) | Finance | Connect AI agents to real-time crypto data via the CoinGecko MCP Server. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `datadog` | [Datadog](third_party/datadog/) | Observability | Query Datadog logs, metrics, traces, incidents, and monitors. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
 | `exa` | [Exa](third_party/exa/) | AI | Connect AI agents to Exa for web search, content fetching, and multi-step research. |
-| `expensify` | [Expensify](third_party/expensify/) | Finance | Connect agents to Expensify to analyze spending, compare periods, and get plain-English summaries of expense data. |
 | `figma` | [Figma](third_party/figma/) | Design | Give AI agents the design context to generate code from your Figma files, and write native Figma content back to the canvas. |
 | `firecrawl` | [Firecrawl](third_party/firecrawl/) | AI | Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor. |
 | `freshbooks` | [FreshBooks](third_party/freshbooks/) | Finance | Check profit, cash, invoices, clients, and more in your FreshBooks account. |
@@ -102,17 +92,11 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `google-slides` | [Google Slides](third_party/google-slides/) | Productivity | Read, create, and edit Google Slides presentations. |
 | `google-stitch` | [Stitch](third_party/google-stitch/) | Design | Generate UI designs and front-end code with Google Stitch. |
 | `google-workspace-search` | [Google Workspace Search](third_party/google-workspace-search/) | Productivity | Search across Gmail, Drive, Calendar, and other Google Workspace content in one place. |
-| `greenhouse` | [Greenhouse](third_party/greenhouse/) | Business Operations | Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions. |
-| `harness` | [Harness](third_party/harness/) | Developer Tools | Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security. |
 | `hubspot` | [HubSpot](third_party/hubspot/) | CRM | Secure read and write access to your HubSpot CRM data — contacts, deals, engagements, and more. |
 | `huggingface` | [Hugging Face](third_party/huggingface/) | AI | Search Hugging Face for models, datasets, and spaces. |
 | `linear` | [Linear](third_party/linear/) | Project Management | Find, create, and update Linear objects such as issues, projects, and comments. |
-| `make` | [Make](third_party/make/) | Productivity | Build, run and debug Make automation scenarios. |
 | `mdn` | [MDN](third_party/mdn/) | Developer Tools | Search and retrieve MDN Web Docs and browser compatibility data. |
-| `mem0` | [Mem0](third_party/mem0/) | Productivity | Add, search, update, and delete long-term memories in Mem0. |
-| `mermaid` | [Mermaid](third_party/mermaid/) | Design | Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account. |
 | `microsoft-learn` | [Microsoft Learn](third_party/microsoft-learn/) | Documentation | Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more. |
-| `mintlify` | [Mintlify](third_party/mintlify/) | Documentation | Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules. |
 | `mixpanel` | [Mixpanel](third_party/mixpanel/) | Analytics | Analyze, query, and manage your Mixpanel data. |
 | `netlify` | [Netlify](third_party/netlify/) | Hosting | Create, deploy, manage, and secure websites on Netlify. |
 | `neon` | [Neon](third_party/neon/) | Database | Manage Neon serverless Postgres projects, branches, queries, and migrations. |
@@ -122,27 +106,18 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `pipedrive` | [Pipedrive](third_party/pipedrive/) | CRM | Find deals, update records, manage activities and work with your live CRM data using natural language. |
 | `posthog` | [PostHog](third_party/posthog/) | Analytics | Query product analytics, manage feature flags, and investigate errors in PostHog. |
 | `railway` | [Railway](third_party/railway/) | Developer Tools | Deploy, manage, and debug your apps and infrastructure on Railway. |
-| `razorpay` | [Razorpay](third_party/razorpay/) | Payments | Work with your Razorpay account: payments, orders, refunds, payment links, and settlements. |
-| `remote` | [Remote](third_party/remote/) | Business Operations | Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports. |
 | `render` | [Render](third_party/render/) | Hosting | Inspect Render services, deploys, and logs. |
 | `replit` | [Replit](third_party/replit/) | Developer Tools | Turn ideas into apps and websites instantly. |
-| `ringcentral` | [RingCentral](third_party/ringcentral/) | Communication | Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards. |
 | `roboflow` | [Roboflow](third_party/roboflow/) | AI | Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment. |
 | `sentry` | [Sentry](third_party/sentry/) | Observability | Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry. |
-| `shippo` | [Shippo](third_party/shippo/) | Business Operations | Ship packages with Shippo: compare carrier rates, buy labels, validate addresses, track packages, handle customs and process batches from your agent. |
 | `shopify` | [Shopify](third_party/shopify/) | Business Operations | Create and manage your store with Shopify. |
 | `slack` | [Slack](third_party/slack/) | Productivity | Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps. |
-| `square` | [Square](third_party/square/) | Payments | Work with payments, orders, catalog, customers, and invoices. |
 | `stripe` | [Stripe](third_party/stripe/) | Payments | Interact with the Stripe API and search the Stripe knowledge base, including documentation and support articles. |
 | `supabase` | [Supabase](third_party/supabase/) | Database | Connect AI assistants to your Supabase project to manage tables, fetch config, and query them. |
 | `swagger` | [Swagger](third_party/swagger/) | Developer Tools | Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals. |
-| `tavily` | [Tavily](third_party/tavily/) | AI | Web search, content extraction, crawling, deep research, and URL discovery. |
 | `todoist` | [Todoist](third_party/todoist/) | Productivity | Connect agents to Todoist to read, add and change tasks, and to reorganize projects. |
-| `twelve-data` | [Twelve Data](third_party/twelve-data/) | Finance | Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings. |
 | `twilio` | [Twilio](third_party/twilio/) | Communication | Search Twilio documentation and API specifications, with 57 Twilio and SendGrid skills. |
 | `vercel` | [Vercel](third_party/vercel/) | Hosting | Search Vercel documentation, manage projects, inspect deployments, and query Web Analytics. |
-| `webflow` | [Webflow](third_party/webflow/) | Hosting | AI-powered design and management for Webflow sites. |
-| `wix` | [Wix](third_party/wix/) | Hosting | Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites. |
 | `xero` | [Xero](third_party/xero/) | Finance | Access your Xero financials from any conversation. |
 | `zapier` | [Zapier](third_party/zapier/) | Productivity | Connect 9,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client. |
 | `zoom` | [Zoom](third_party/zoom/) | Productivity | Search, ask and act on your Zoom meetings, recordings, notes and docs |

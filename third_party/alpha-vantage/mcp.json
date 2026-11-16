@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "alpha-vantage": {
-      "type": "http",
-      "url": "https://mcp.alphavantage.co/mcp"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "twelve-data": {
-      "type": "http",
-      "url": "https://mcp.twelvedata.com/mcp"
-    }
-  }
-}

@@ -10,30 +10,6 @@
   },
   "plugins": [
     {
-      "name": "alpha-vantage",
-      "displayName": "Alpha Vantage",
-      "version": "0.1.0",
-      "description": "Real-time and historical stock market data from Alpha Vantage.",
-      "source": "third_party/alpha-vantage",
-      "logo": "third_party/alpha-vantage/assets/logo.png",
-      "category": "finance",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "amplitude",
       "displayName": "Amplitude",
       "version": "0.1.0",
@@ -131,31 +107,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "bird",
-      "displayName": "Bird",
-      "version": "0.1.0",
-      "description": "Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication.",
-      "source": "third_party/bird",
-      "logo": "third_party/bird/assets/logo.png",
-      "category": "communication",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "boldcreate-toolkit",
       "displayName": "BoldCreate Toolkit",
       "version": "0.7.1",
@@ -202,127 +153,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "brevo",
-      "displayName": "Brevo",
-      "version": "0.1.0",
-      "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language.",
-      "source": "third_party/brevo",
-      "logo": "third_party/brevo/assets/logo.svg",
-      "category": "communication",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "brightcove",
-      "displayName": "Brightcove",
-      "version": "0.1.0",
-      "description": "Connect AI assistants to your Brightcove account to work with videos, players, live streams, analytics and other resources your account is entitled to.",
-      "source": "third_party/brightcove",
-      "logo": "third_party/brightcove/assets/logo.png",
-      "category": "design",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "cashfree",
-      "displayName": "Cashfree",
-      "version": "0.1.0",
-      "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree.",
-      "source": "third_party/cashfree",
-      "logo": "third_party/cashfree/assets/logo.svg",
-      "category": "payments",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "chartmogul",
-      "displayName": "ChartMogul",
-      "version": "0.1.0",
-      "description": "Access your ChartMogul revenue metrics, customer data and sales pipeline: MRR, ARR, churn, retention, cohorts, subscriptions and customer activity.",
-      "source": "third_party/chartmogul",
-      "logo": "third_party/chartmogul/assets/logo.svg",
-      "category": "analytics",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "clerk",
-      "displayName": "Clerk",
-      "version": "0.1.0",
-      "description": "Connect agents to Clerk to manage applications, instance settings, users, organizations and domains from your Clerk workspace.",
-      "source": "third_party/clerk",
-      "logo": "third_party/clerk/assets/logo.svg",
-      "category": "developer-tools",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "clickhouse",
       "displayName": "ClickHouse",
       "version": "0.1.0",
@@ -354,55 +184,6 @@
       "source": "third_party/close",
       "logo": "third_party/close/assets/logo.svg",
       "category": "crm",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "cloudinary",
-      "displayName": "Cloudinary",
-      "version": "0.1.0",
-      "description": "Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language.",
-      "source": "third_party/cloudinary",
-      "logo": "third_party/cloudinary/assets/logo.png",
-      "category": "design",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "coingecko",
-      "displayName": "CoinGecko",
-      "version": "0.1.0",
-      "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server.",
-      "source": "third_party/coingecko",
-      "logo": "third_party/coingecko/assets/logo.png",
-      "category": "finance",
       "components": [
         "mcp",
         "skills"
@@ -500,31 +281,6 @@
       "source": "third_party/exa",
       "logo": "third_party/exa/assets/logo.svg",
       "category": "ai",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "expensify",
-      "displayName": "Expensify",
-      "version": "0.1.0",
-      "description": "Connect agents to Expensify to analyze spending, compare periods, and get plain-English summaries of expense data.",
-      "source": "third_party/expensify",
-      "logo": "third_party/expensify/assets/logo.png",
-      "category": "finance",
       "components": [
         "mcp",
         "skills"
@@ -1312,55 +1068,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "greenhouse",
-      "displayName": "Greenhouse",
-      "version": "0.1.0",
-      "description": "Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions.",
-      "source": "third_party/greenhouse",
-      "logo": "third_party/greenhouse/assets/logo.png",
-      "category": "business-operations",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "harness",
-      "displayName": "Harness",
-      "version": "0.1.0",
-      "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security.",
-      "source": "third_party/harness",
-      "logo": "third_party/harness/assets/logo.svg",
-      "category": "developer-tools",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "hubspot",
       "displayName": "HubSpot",
       "version": "0.1.0",
@@ -1435,31 +1142,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "make",
-      "displayName": "Make",
-      "version": "0.1.0",
-      "description": "Build, run and debug Make automation scenarios.",
-      "source": "third_party/make",
-      "logo": "third_party/make/assets/logo.png",
-      "category": "productivity",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "mdn",
       "displayName": "MDN",
       "version": "0.1.0",
@@ -1484,54 +1166,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "mem0",
-      "displayName": "Mem0",
-      "version": "0.1.0",
-      "description": "Add, search, update, and delete long-term memories in Mem0.",
-      "source": "third_party/mem0",
-      "logo": "third_party/mem0/assets/logo.svg",
-      "category": "productivity",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "mermaid",
-      "displayName": "Mermaid",
-      "version": "0.1.0",
-      "description": "Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account.",
-      "source": "third_party/mermaid",
-      "logo": "third_party/mermaid/assets/logo.svg",
-      "category": "design",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "microsoft-learn",
       "displayName": "Microsoft Learn",
       "version": "0.7.0",
@@ -1552,32 +1186,6 @@
       "rollout": {
         "phase": 1,
         "wave": "A"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "mintlify",
-      "displayName": "Mintlify",
-      "version": "0.1.0",
-      "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules.",
-      "source": "third_party/mintlify",
-      "logo": "third_party/mintlify/assets/logo.svg",
-      "category": "documentation",
-      "components": [
-        "mcp",
-        "skills",
-        "rules"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
       },
       "supportedByGateway": true
     },
@@ -1800,55 +1408,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "razorpay",
-      "displayName": "Razorpay",
-      "version": "0.1.0",
-      "description": "Work with your Razorpay account: payments, orders, refunds, payment links, and settlements.",
-      "source": "third_party/razorpay",
-      "logo": "third_party/razorpay/assets/logo.svg",
-      "category": "payments",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "remote",
-      "displayName": "Remote",
-      "version": "0.1.0",
-      "description": "Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports.",
-      "source": "third_party/remote",
-      "logo": "third_party/remote/assets/logo.png",
-      "category": "business-operations",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "render",
       "displayName": "Render",
       "version": "0.1.0",
@@ -1882,31 +1441,6 @@
       "category": "developer-tools",
       "components": [
         "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "ringcentral",
-      "displayName": "RingCentral",
-      "version": "0.1.0",
-      "description": "Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards.",
-      "source": "third_party/ringcentral",
-      "logo": "third_party/ringcentral/assets/logo.svg",
-      "category": "communication",
-      "components": [
-        "mcp",
-        "skills"
       ],
       "transports": [
         "streamable-http"
@@ -1972,31 +1506,6 @@
       "supportedByGateway": true
     },
     {
-      "name": "shippo",
-      "displayName": "Shippo",
-      "version": "0.1.0",
-      "description": "Ship packages with Shippo: compare carrier rates, buy labels, validate addresses, track packages, handle customs and process batches from your agent.",
-      "source": "third_party/shippo",
-      "logo": "third_party/shippo/assets/logo.png",
-      "category": "business-operations",
-      "components": [
-        "mcp",
-        "skills"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "shopify",
       "displayName": "Shopify",
       "version": "0.1.0",
@@ -2041,30 +1550,6 @@
       "requiresSecrets": true,
       "rollout": {
         "phase": 2,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "square",
-      "displayName": "Square",
-      "version": "0.1.0",
-      "description": "Work with payments, orders, catalog, customers, and invoices.",
-      "source": "third_party/square",
-      "logo": "third_party/square/assets/logo.svg",
-      "category": "payments",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
         "wave": "B"
       },
       "supportedByGateway": true
@@ -2487,32 +1972,6 @@
       "supportedByGateway": false
     },
     {
-      "name": "tavily",
-      "displayName": "Tavily",
-      "version": "0.1.0",
-      "description": "Web search, content extraction, crawling, deep research, and URL discovery.",
-      "source": "third_party/tavily",
-      "logo": "third_party/tavily/assets/logo.svg",
-      "category": "ai",
-      "components": [
-        "mcp",
-        "skills",
-        "rules"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
       "name": "todoist",
       "displayName": "Todoist",
       "version": "0.1.0",
@@ -2522,31 +1981,6 @@
       "category": "productivity",
       "components": [
         "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "twelve-data",
-      "displayName": "Twelve Data",
-      "version": "0.1.0",
-      "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings.",
-      "source": "third_party/twelve-data",
-      "logo": "third_party/twelve-data/assets/logo.png",
-      "category": "finance",
-      "components": [
-        "mcp",
-        "skills"
       ],
       "transports": [
         "streamable-http"
@@ -2598,55 +2032,6 @@
         "mcp",
         "skills",
         "agents"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "webflow",
-      "displayName": "Webflow",
-      "version": "0.1.0",
-      "description": "AI-powered design and management for Webflow sites.",
-      "source": "third_party/webflow",
-      "logo": "third_party/webflow/assets/logo.svg",
-      "category": "hosting",
-      "components": [
-        "mcp"
-      ],
-      "transports": [
-        "streamable-http"
-      ],
-      "auth": [
-        "oauth"
-      ],
-      "requiresSecrets": false,
-      "rollout": {
-        "phase": 1,
-        "wave": "B"
-      },
-      "supportedByGateway": true
-    },
-    {
-      "name": "wix",
-      "displayName": "Wix",
-      "version": "0.1.0",
-      "description": "Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites.",
-      "source": "third_party/wix",
-      "logo": "third_party/wix/assets/logo.svg",
-      "category": "hosting",
-      "components": [
-        "mcp",
-        "skills"
       ],
       "transports": [
         "streamable-http"

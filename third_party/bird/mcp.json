@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "bird": {
-      "type": "http",
-      "url": "https://mcp.bird.com"
-    }
-  }
-}

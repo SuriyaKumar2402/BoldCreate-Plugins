@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "chartmogul": {
-      "type": "http",
-      "url": "https://mcp.chartmogul.com"
-    }
-  }
-}

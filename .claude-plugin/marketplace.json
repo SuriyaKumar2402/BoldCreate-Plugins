@@ -8,11 +8,6 @@
   },
   "plugins": [
     {
-      "name": "alpha-vantage",
-      "source": "./third_party/alpha-vantage",
-      "description": "Real-time and historical stock market data from Alpha Vantage."
-    },
-    {
       "name": "amplitude",
       "source": "./third_party/amplitude",
       "description": "Query Amplitude product analytics, charts, and experiments."
@@ -33,11 +28,6 @@
       "description": "Search AWS documentation, API references, and regional availability."
     },
     {
-      "name": "bird",
-      "source": "./third_party/bird",
-      "description": "Drive Bird from your agent: send and inspect email, SMS, WhatsApp and voice, set up channels and domains, and audit a domain's email authentication."
-    },
-    {
       "name": "boldcreate-toolkit",
       "source": "./boldcreate-toolkit",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests."
@@ -48,31 +38,6 @@
       "description": "Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk."
     },
     {
-      "name": "brevo",
-      "source": "./third_party/brevo",
-      "description": "Connect Brevo to analyze email campaign performance and A/B test results, look up contacts, and explore audience segments in plain language."
-    },
-    {
-      "name": "brightcove",
-      "source": "./third_party/brightcove",
-      "description": "Connect AI assistants to your Brightcove account to work with videos, players, live streams, analytics and other resources your account is entitled to."
-    },
-    {
-      "name": "cashfree",
-      "source": "./third_party/cashfree",
-      "description": "Query transactions, settlements, and reports, and call Payment Gateway APIs in Cashfree."
-    },
-    {
-      "name": "chartmogul",
-      "source": "./third_party/chartmogul",
-      "description": "Access your ChartMogul revenue metrics, customer data and sales pipeline: MRR, ARR, churn, retention, cohorts, subscriptions and customer activity."
-    },
-    {
-      "name": "clerk",
-      "source": "./third_party/clerk",
-      "description": "Connect agents to Clerk to manage applications, instance settings, users, organizations and domains from your Clerk workspace."
-    },
-    {
       "name": "clickhouse",
       "source": "./third_party/clickhouse",
       "description": "Query and explore your ClickHouse Cloud data."
@@ -81,16 +46,6 @@
       "name": "close",
       "source": "./third_party/close",
       "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records."
-    },
-    {
-      "name": "cloudinary",
-      "source": "./third_party/cloudinary",
-      "description": "Use Cloudinary directly in your agent. Upload, manage, optimize, and transform images and videos at scale using natural language."
-    },
-    {
-      "name": "coingecko",
-      "source": "./third_party/coingecko",
-      "description": "Connect AI agents to real-time crypto data via the CoinGecko MCP Server."
     },
     {
       "name": "context7",
@@ -111,11 +66,6 @@
       "name": "exa",
       "source": "./third_party/exa",
       "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research."
-    },
-    {
-      "name": "expensify",
-      "source": "./third_party/expensify",
-      "description": "Connect agents to Expensify to analyze spending, compare periods, and get plain-English summaries of expense data."
     },
     {
       "name": "figma",
@@ -278,16 +228,6 @@
       "description": "Search across Gmail, Drive, Calendar, and other Google Workspace content in one place."
     },
     {
-      "name": "greenhouse",
-      "source": "./third_party/greenhouse",
-      "description": "Connect AI tools to Greenhouse Recruiting to work with live recruiting data: surface insights, run analyses, answer questions and complete supported actions."
-    },
-    {
-      "name": "harness",
-      "source": "./third_party/harness",
-      "description": "Build, ship and secure your apps on the Harness platform, with Harness skills for pipelines, feature flags, cloud cost, chaos and security."
-    },
-    {
       "name": "hubspot",
       "source": "./third_party/hubspot",
       "description": "Secure read and write access to your HubSpot CRM data — contacts, deals, engagements, and more."
@@ -303,34 +243,14 @@
       "description": "Find, create, and update Linear objects such as issues, projects, and comments."
     },
     {
-      "name": "make",
-      "source": "./third_party/make",
-      "description": "Build, run and debug Make automation scenarios."
-    },
-    {
       "name": "mdn",
       "source": "./third_party/mdn",
       "description": "Search & retrieval of MDN docs & browser compat data."
     },
     {
-      "name": "mem0",
-      "source": "./third_party/mem0",
-      "description": "Add, search, update, and delete long-term memories in Mem0."
-    },
-    {
-      "name": "mermaid",
-      "source": "./third_party/mermaid",
-      "description": "Create, validate, and render Mermaid diagrams, and manage them in your Mermaid account."
-    },
-    {
       "name": "microsoft-learn",
       "source": "./third_party/microsoft-learn",
       "description": "Search official Microsoft docs and code samples for .NET, Azure, MAUI, and more."
-    },
-    {
-      "name": "mintlify",
-      "source": "./third_party/mintlify",
-      "description": "Edit your Mintlify content, restructure navigation, and open pull requests, with a Mintlify reference skill and writing rules."
     },
     {
       "name": "mixpanel",
@@ -378,16 +298,6 @@
       "description": "Deploy, manage, and debug your apps and infrastructure on Railway."
     },
     {
-      "name": "razorpay",
-      "source": "./third_party/razorpay",
-      "description": "Work with your Razorpay account: payments, orders, refunds, payment links, and settlements."
-    },
-    {
-      "name": "remote",
-      "source": "./third_party/remote",
-      "description": "Access Remote's global employment platform from your agent: employments, contracts, payroll, time off, org structure and reports."
-    },
-    {
       "name": "render",
       "source": "./third_party/render",
       "description": "Inspect Render services, deploys, and logs."
@@ -396,11 +306,6 @@
       "name": "replit",
       "source": "./third_party/replit",
       "description": "Turn ideas into apps and websites instantly."
-    },
-    {
-      "name": "ringcentral",
-      "source": "./third_party/ringcentral",
-      "description": "Work with RingCentral phone and Team Chat: review calls, voicemail, SMS, and faxes; find colleagues; and manage messages, tasks, notes, events, teams, webhooks, and Adaptive Cards."
     },
     {
       "name": "roboflow",
@@ -413,11 +318,6 @@
       "description": "Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry."
     },
     {
-      "name": "shippo",
-      "source": "./third_party/shippo",
-      "description": "Ship packages with Shippo: compare carrier rates, buy labels, validate addresses, track packages, handle customs and process batches from your agent."
-    },
-    {
       "name": "shopify",
       "source": "./third_party/shopify",
       "description": "Create and manage your store with Shopify."
@@ -426,11 +326,6 @@
       "name": "slack",
       "source": "./third_party/slack",
       "description": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps."
-    },
-    {
-      "name": "square",
-      "source": "./third_party/square",
-      "description": "Work with payments, orders, catalog, customers, and invoices."
     },
     {
       "name": "stripe",
@@ -538,19 +433,9 @@
       "description": "Skills for moving Xamarin.Forms apps to .NET MAUI: project and framework changes, platform-specific code, renderers to handlers, and Syncfusion Xamarin controls to their .NET MAUI equivalents."
     },
     {
-      "name": "tavily",
-      "source": "./third_party/tavily",
-      "description": "Web search, content extraction, crawling, deep research, and URL discovery."
-    },
-    {
       "name": "todoist",
       "source": "./third_party/todoist",
       "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects."
-    },
-    {
-      "name": "twelve-data",
-      "source": "./third_party/twelve-data",
-      "description": "Real-time and historical market data from Twelve Data: prices, technical indicators, fundamentals, ETFs and funds, market movers, and regulatory filings."
     },
     {
       "name": "twilio",
@@ -561,16 +446,6 @@
       "name": "vercel",
       "source": "./third_party/vercel",
       "description": "Search Vercel documentation, manage projects, inspect deployments, and query Web Analytics."
-    },
-    {
-      "name": "webflow",
-      "source": "./third_party/webflow",
-      "description": "AI-powered design and management for Webflow sites."
-    },
-    {
-      "name": "wix",
-      "source": "./third_party/wix",
-      "description": "Search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites."
     },
     {
       "name": "xero",
