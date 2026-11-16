@@ -55,10 +55,14 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `aws-knowledge` | [AWS Knowledge](third_party/aws-knowledge/) | Documentation | Search AWS documentation, API references, and regional availability. |
 | `bolddesk` | [BoldDesk](third_party/bolddesk/) | Customer Support | Create, update and route support tickets, reply to conversations, log work, and search the Knowledge Base in BoldDesk. |
 | `clickhouse` | [ClickHouse](third_party/clickhouse/) | Analytics | Query and explore your ClickHouse Cloud data. |
+| `close` | [Close](third_party/close/) | CRM | Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records. |
 | `context7` | [Context7](third_party/context7/) | Documentation | Pull up-to-date, version-specific library docs and code examples into the prompt. |
 | `datadog` | [Datadog](third_party/datadog/) | Observability | Query Datadog logs, metrics, traces, incidents, and monitors. |
 | `deepwiki` | [DeepWiki](third_party/deepwiki/) | Documentation | Ask questions about any public GitHub repository and read its generated wiki. |
+| `exa` | [Exa](third_party/exa/) | AI | Connect AI agents to Exa for web search, content fetching, and multi-step research. |
 | `figma` | [Figma](third_party/figma/) | Design | Give AI agents the design context to generate code from your Figma files, and write native Figma content back to the canvas. |
+| `firecrawl` | [Firecrawl](third_party/firecrawl/) | AI | Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor. |
+| `freshbooks` | [FreshBooks](third_party/freshbooks/) | Finance | Check profit, cash, invoices, clients, and more in your FreshBooks account. |
 | `gitea` | [Gitea](third_party/gitea/) | Source Control | Work with Gitea repositories, issues, pull requests, and releases through your own gitea-mcp server. |
 | `github` | [GitHub](third_party/github/) | Source Control | Manage repos, issues, pull requests, and Actions. |
 | `gitlab` | [GitLab](third_party/gitlab/) | Source Control | Access GitLab project information, retrieve issue and merge request data, and interact with GitLab APIs. |
@@ -97,17 +101,21 @@ The platform and SDK skill packs listed on [ai.syncfusion.com](https://ai.syncfu
 | `netlify` | [Netlify](third_party/netlify/) | Hosting | Create, deploy, manage, and secure websites on Netlify. |
 | `neon` | [Neon](third_party/neon/) | Database | Manage Neon serverless Postgres projects, branches, queries, and migrations. |
 | `notion` | [Notion](third_party/notion/) | Documentation | Search your Notion workspace, create and edit pages, and manage databases. |
+| `onesignal` | [OneSignal](third_party/onesignal/) | Communication | Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app. |
 | `pagerduty` | [PagerDuty](third_party/pagerduty/) | Incident Management | Browse PagerDuty services, incidents, and change events. |
 | `pipedrive` | [Pipedrive](third_party/pipedrive/) | CRM | Find deals, update records, manage activities and work with your live CRM data using natural language. |
 | `posthog` | [PostHog](third_party/posthog/) | Analytics | Query product analytics, manage feature flags, and investigate errors in PostHog. |
 | `railway` | [Railway](third_party/railway/) | Developer Tools | Deploy, manage, and debug your apps and infrastructure on Railway. |
 | `render` | [Render](third_party/render/) | Hosting | Inspect Render services, deploys, and logs. |
 | `replit` | [Replit](third_party/replit/) | Developer Tools | Turn ideas into apps and websites instantly. |
+| `roboflow` | [Roboflow](third_party/roboflow/) | AI | Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment. |
 | `sentry` | [Sentry](third_party/sentry/) | Observability | Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry. |
 | `shopify` | [Shopify](third_party/shopify/) | Business Operations | Create and manage your store with Shopify. |
 | `slack` | [Slack](third_party/slack/) | Productivity | Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps. |
 | `stripe` | [Stripe](third_party/stripe/) | Payments | Interact with the Stripe API and search the Stripe knowledge base, including documentation and support articles. |
 | `supabase` | [Supabase](third_party/supabase/) | Database | Connect AI assistants to your Supabase project to manage tables, fetch config, and query them. |
+| `swagger` | [Swagger](third_party/swagger/) | Developer Tools | Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals. |
+| `todoist` | [Todoist](third_party/todoist/) | Productivity | Connect agents to Todoist to read, add and change tasks, and to reorganize projects. |
 | `twilio` | [Twilio](third_party/twilio/) | Communication | Search Twilio documentation and API specifications, with 57 Twilio and SendGrid skills. |
 | `vercel` | [Vercel](third_party/vercel/) | Hosting | Search Vercel documentation, manage projects, inspect deployments, and query Web Analytics. |
 | `xero` | [Xero](third_party/xero/) | Finance | Access your Xero financials from any conversation. |

@@ -43,6 +43,11 @@
       "description": "Query and explore your ClickHouse Cloud data."
     },
     {
+      "name": "close",
+      "source": "./third_party/close",
+      "description": "Connect agents to Close CRM to research leads, review pipeline and activity, prepare follow-ups, and create or update CRM records."
+    },
+    {
       "name": "context7",
       "source": "./third_party/context7",
       "description": "Pull up-to-date, version-specific library docs and code examples into the prompt."
@@ -58,9 +63,24 @@
       "description": "Ask questions about any public GitHub repository and read its generated wiki."
     },
     {
+      "name": "exa",
+      "source": "./third_party/exa",
+      "description": "Connect AI agents to Exa for web search, content fetching, and multi-step research."
+    },
+    {
       "name": "figma",
       "source": "./third_party/figma",
       "description": "Give AI agents the design context to generate code from your Figma files, and write native Figma content back to the canvas."
+    },
+    {
+      "name": "firecrawl",
+      "source": "./third_party/firecrawl",
+      "description": "Search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor."
+    },
+    {
+      "name": "freshbooks",
+      "source": "./third_party/freshbooks",
+      "description": "Check profit, cash, invoices, clients, and more in your FreshBooks account."
     },
     {
       "name": "gitea",
@@ -253,6 +273,11 @@
       "description": "Search your Notion workspace, create and edit pages, and manage databases."
     },
     {
+      "name": "onesignal",
+      "source": "./third_party/onesignal",
+      "description": "Give AI agents direct access to OneSignal's customer engagement platform: explore users, segments, messages, templates and analytics, and manage messaging across push, email, SMS and in-app."
+    },
+    {
       "name": "pagerduty",
       "source": "./third_party/pagerduty",
       "description": "Browse PagerDuty services, incidents, and change events."
@@ -283,6 +308,11 @@
       "description": "Turn ideas into apps and websites instantly."
     },
     {
+      "name": "roboflow",
+      "source": "./third_party/roboflow",
+      "description": "Roboflow computer vision skills and MCP tools for datasets, annotation, training, workflows, inference, and deployment."
+    },
+    {
       "name": "sentry",
       "source": "./third_party/sentry",
       "description": "Search errors, analyze performance, triage issues, read documentation, and manage projects in Sentry."
@@ -306,6 +336,11 @@
       "name": "supabase",
       "source": "./third_party/supabase",
       "description": "Connect AI assistants to your Supabase project to manage tables, fetch config, and query data."
+    },
+    {
+      "name": "swagger",
+      "source": "./third_party/swagger",
+      "description": "Design, govern and document APIs with Swagger: search and edit API definitions in the Swagger registry, scan them against governance rules, and manage API portals."
     },
     {
       "name": "syncfusion-angular",
@@ -396,6 +431,11 @@
       "name": "syncfusion-xamarin-to-maui",
       "source": "./syncfusion/migration-skills/xamarin-to-maui",
       "description": "Skills for moving Xamarin.Forms apps to .NET MAUI: project and framework changes, platform-specific code, renderers to handlers, and Syncfusion Xamarin controls to their .NET MAUI equivalents."
+    },
+    {
+      "name": "todoist",
+      "source": "./third_party/todoist",
+      "description": "Connect agents to Todoist to read, add and change tasks, and to reorganize projects."
     },
     {
       "name": "twilio",
