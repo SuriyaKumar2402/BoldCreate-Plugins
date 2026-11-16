@@ -53,7 +53,7 @@ The same check found:
 
 So members connect without a client ID or client secret from your team. No registration request was sent to the server during the check.
 
-Exa's README also allows an API key, sent as `Authorization: Bearer …`, an `x-api-key` header, or `?exaApiKey=…` in the URL. This plugin does not set one. Do not put a key in the URL.
+Exa's README also allows an API key, sent as `Authorization: Bearer <key>`, an `x-api-key` header, or `?exaApiKey=<key>` in the URL. This plugin does not set one. Do not put a key in the URL.
 
 **Not checked.** The tool list behind sign-in was not read.
 
