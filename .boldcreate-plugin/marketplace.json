@@ -1460,7 +1460,7 @@
     },
     {
       "name": "sdlc-toolkit",
-      "displayName": "BoldCreate Toolkit",
+      "displayName": "SDLC Toolkit",
       "version": "0.7.2",
       "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
       "source": "sdlc-toolkit",
