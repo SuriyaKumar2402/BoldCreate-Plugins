@@ -18,7 +18,7 @@ Secrets such as API keys are never stored in this repository. Each MCP plugin de
 
 | `name` | Plugin | Category | `description` |
 |:-------|:-------|:---------|:-------------------------------------|
-| `sdlc-toolkit` | [SDLC ToolKit](sdlc-toolkit/) | Developer Tools | Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests. |
+| `sdlc-toolkit` | [SDLC Toolkit](sdlc-toolkit/) | Developer Tools | Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests. |
 
 ## Syncfusion skill packs
 

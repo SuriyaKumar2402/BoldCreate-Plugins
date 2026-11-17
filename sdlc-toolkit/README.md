@@ -1,4 +1,4 @@
-# SDLC ToolKit
+# SDLC Toolkit
 
 Syncfusion's BoldCreate plugin that gives AI coding agents one software delivery lifecycle: idea, specification, build, test, review, release and maintenance.
 
@@ -6,8 +6,8 @@ The kit is a set of skills, agents and rules. It has no MCP server and calls no 
 
 ## Install
 
-- **BoldCreate Connect:** open **Marketplace**, find **SDLC ToolKit**, and click **Install**.
-- **Cursor:** add this repository as a team marketplace, then install **SDLC ToolKit**.
+- **BoldCreate Connect:** open **Marketplace**, find **SDLC Toolkit**, and click **Install**.
+- **Cursor:** add this repository as a team marketplace, then install **SDLC Toolkit**.
 - **Claude Code:** `/plugin marketplace add syncfusion/BoldCreate-Plugins`, then `/plugin install sdlc-toolkit@boldcreate-plugins`.
 
 You also need:
@@ -120,7 +120,7 @@ Every skill keeps the templates and review checklists it reads in its own folder
 | `docs/learnings/<date>-<topic>.md` | `retro` | Lessons learned |
 | `docs/reports/` | `report` | Drift reports, release notes and progress summaries |
 
-Commit the other files so that the whole team and every new session share them. `setup` commits its own files as `Set up SDLC ToolKit`, on the first work branch when you start on a protected branch, and reviews leave that commit out. If a command in `project.yml` is missing or fails, the kit asks you for it instead of guessing.
+Commit the other files so that the whole team and every new session share them. `setup` commits its own files as `Set up SDLC Toolkit`, on the first work branch when you start on a protected branch, and reviews leave that commit out. If a command in `project.yml` is missing or fails, the kit asks you for it instead of guessing.
 
 ## Context budget
 
