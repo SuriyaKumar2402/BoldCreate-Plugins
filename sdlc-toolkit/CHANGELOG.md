@@ -2,6 +2,10 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.8.0 - 2026-11-01
+
+- The plugin is renamed from `boldcreate-toolkit` to `sdlc-toolkit`. The folder, the plugin name and the marketplace entries all use the new name. Reinstall it under the new name: in Claude Code, `/plugin install sdlc-toolkit@boldcreate-plugins`, and type `/sdlc-toolkit:bc-start`. Remove the old `boldcreate-toolkit` install. Skills, agents and rules are unchanged.
+
 ## 0.7.1 - 2026-10-31
 
 - New BoldCreate Toolkit logo (`assets/logo.png`).

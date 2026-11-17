@@ -8,7 +8,7 @@ The kit is a set of skills, agents and rules. It has no MCP server and calls no 
 
 - **BoldCreate Connect:** open **Marketplace**, find **BoldCreate Toolkit**, and click **Install**.
 - **Cursor:** add this repository as a team marketplace, then install **BoldCreate Toolkit**.
-- **Claude Code:** `/plugin marketplace add syncfusion/BoldCreate-Plugins`, then `/plugin install boldcreate-toolkit@boldcreate-plugins`.
+- **Claude Code:** `/plugin marketplace add syncfusion/BoldCreate-Plugins`, then `/plugin install sdlc-toolkit@boldcreate-plugins`.
 
 You also need:
 
@@ -18,7 +18,7 @@ You also need:
 
 ## Get started
 
-Run the `bc-start` skill and describe what you want. In Cursor, type `/bc-start`. In Claude Code, type `/boldcreate-toolkit:bc-start`.
+Run the `bc-start` skill and describe what you want. In Cursor, type `/bc-start`. In Claude Code, type `/sdlc-toolkit:bc-start`.
 
 In Claude Code, the agent cannot start the skills marked "You" below by itself. When a path reaches one, it reads that skill's `SKILL.md` from the folder next to the current skill's folder and follows it; the session-start hook also prints the kit's skills folder as `Kit skills: <path>`. If Claude Code asks before each read, allow reads of installed plugins in `~/.claude/settings.json`:
 

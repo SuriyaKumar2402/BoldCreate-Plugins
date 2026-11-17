@@ -1,7 +1,7 @@
 {
-  "name": "boldcreate-toolkit",
+  "name": "sdlc-toolkit",
   "displayName": "BoldCreate Toolkit",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "minClientVersions": {
     "cursor": "3.13.0"
   },
@@ -9,7 +9,7 @@
   "author": {
     "name": "Syncfusion"
   },
-  "homepage": "https://github.com/syncfusion/BoldCreate-Plugins/tree/main/boldcreate-toolkit",
+  "homepage": "https://github.com/syncfusion/BoldCreate-Plugins/tree/main/sdlc-toolkit",
   "repository": "https://github.com/syncfusion/BoldCreate-Plugins",
   "license": "MIT",
   "logo": "assets/logo.png",
