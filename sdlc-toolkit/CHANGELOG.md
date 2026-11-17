@@ -8,7 +8,7 @@ All notable changes to this plugin will be documented here.
 
 ## 0.7.1 - 2026-10-31
 
-- New SDLC ToolKit logo (`assets/logo.png`).
+- New BoldCreate Toolkit logo (`assets/logo.png`).
 
 ## 0.7.0 - 2026-10-29
 
@@ -24,9 +24,9 @@ All notable changes to this plugin will be documented here.
 
 ## 0.5.0 - 2026-10-28
 
-- The plugin is now `sdlc-toolkit` (shown as SDLC ToolKit). Reinstall it under the new name: in Claude Code, `/plugin install sdlc-toolkit@boldcreate-plugins`.
-- The `start` skill is now `bc-start`, so it no longer clashes with other plugins that ship a `start` skill. In Cursor, type `/bc-start`. In Claude Code, type `/sdlc-toolkit:bc-start`.
-- `setup` now commits its files as `Set up SDLC ToolKit`, and `code-review` leaves out a first commit with that subject.
+- The plugin is now `boldcreate-toolkit` (shown as BoldCreate Toolkit). Reinstall it under the new name: in Claude Code, `/plugin install boldcreate-toolkit@boldcreate-plugins`.
+- The `start` skill is now `bc-start`, so it no longer clashes with other plugins that ship a `start` skill. In Cursor, type `/bc-start`. In Claude Code, type `/boldcreate-toolkit:bc-start`.
+- `setup` now commits its files as `Set up BoldCreate Toolkit`, and `code-review` leaves out a first commit with that subject.
 
 ## 0.4.0 - 2026-10-28
 
