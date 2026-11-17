@@ -4,11 +4,11 @@ All notable changes to this plugin will be documented here.
 
 ## 0.7.2 - 2026-11-01
 
-- The plugin is renamed from `boldcreate-toolkit` to `sdlc-toolkit`. The folder, the plugin name and the marketplace entries all use the new name. Reinstall it under the new name: in Claude Code, `/plugin install sdlc-toolkit@boldcreate-plugins`, and type `/sdlc-toolkit:bc-start`. Remove the old `boldcreate-toolkit` install. The display name is now SDLC Toolkit, and `setup` commits as `Set up SDLC Toolkit`; `code-review` still skips the older `Set up BoldCreate Toolkit` commit. Skills, agents and rules are otherwise unchanged.
+- The plugin is renamed to `sdlc-toolkit` and is now shown as SDLC Toolkit. The folder, the plugin name and the marketplace entries all use the new name. Reinstall it under the new name: in Claude Code, `/plugin install sdlc-toolkit@boldcreate-plugins`, and type `/sdlc-toolkit:bc-start`. Remove the previous install. `setup` commits as `Set up SDLC Toolkit`. Skills, agents and rules are otherwise unchanged.
 
 ## 0.7.1 - 2026-10-31
 
-- New BoldCreate Toolkit logo (`assets/logo.png`).
+- New SDLC Toolkit logo (`assets/logo.png`).
 
 ## 0.7.0 - 2026-10-29
 
@@ -24,9 +24,9 @@ All notable changes to this plugin will be documented here.
 
 ## 0.5.0 - 2026-10-28
 
-- The plugin is now `boldcreate-toolkit` (shown as BoldCreate Toolkit). Reinstall it under the new name: in Claude Code, `/plugin install boldcreate-toolkit@boldcreate-plugins`.
-- The `start` skill is now `bc-start`, so it no longer clashes with other plugins that ship a `start` skill. In Cursor, type `/bc-start`. In Claude Code, type `/boldcreate-toolkit:bc-start`.
-- `setup` now commits its files as `Set up BoldCreate Toolkit`, and `code-review` leaves out a first commit with that subject.
+- The plugin is now `sdlc-toolkit` (shown as SDLC Toolkit). Reinstall it under the new name: in Claude Code, `/plugin install sdlc-toolkit@boldcreate-plugins`.
+- The `start` skill is now `bc-start`, so it no longer clashes with other plugins that ship a `start` skill. In Cursor, type `/bc-start`. In Claude Code, type `/sdlc-toolkit:bc-start`.
+- `setup` now commits its files as `Set up SDLC Toolkit`, and `code-review` leaves out a first commit with that subject.
 
 ## 0.4.0 - 2026-10-28
 
