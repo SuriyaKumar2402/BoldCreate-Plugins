@@ -1,4 +1,4 @@
-# SDLC Toolkit
+# SDLC ToolKit
 
 Syncfusion's BoldCreate plugin that gives AI coding agents one software delivery lifecycle: idea, specification, build, test, review, release and maintenance.
 
@@ -6,8 +6,8 @@ The kit is a set of skills, agents and rules. It has no MCP server and calls no 
 
 ## Install
 
-- **BoldCreate Connect:** open **Marketplace**, find **SDLC Toolkit**, and click **Install**.
-- **Cursor:** add this repository as a team marketplace, then install **SDLC Toolkit**.
+- **BoldCreate Connect:** open **Marketplace**, find **SDLC ToolKit**, and click **Install**.
+- **Cursor:** add this repository as a team marketplace, then install **SDLC ToolKit**.
 - **Claude Code:** `/plugin marketplace add syncfusion/BoldCreate-Plugins`, then `/plugin install sdlc-toolkit@boldcreate-plugins`.
 
 You also need:

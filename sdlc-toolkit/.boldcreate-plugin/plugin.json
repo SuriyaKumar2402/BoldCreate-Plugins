@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/boldcreate-plugin.schema.json",
   "name": "sdlc-toolkit",
-  "displayName": "SDLC Toolkit",
+  "displayName": "SDLC ToolKit",
   "version": "0.7.2",
   "description": "Skills, reviewer agents and rules that take any project from idea to release: specs, test-first builds, two-axis code review and pull requests.",
   "author": {
