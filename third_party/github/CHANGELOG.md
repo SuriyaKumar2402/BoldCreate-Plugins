@@ -2,6 +2,10 @@
 
 All notable changes to this plugin will be documented here.
 
+## 0.7.2 - 2026-11-17
+
+- Updated plugin version for marketplace release.
+
 ## 0.7.1 - 2026-11-02
 
 - Sign-in is now OAuth: each member signs in to their own GitHub account. The `GITHUB_PERSONAL_ACCESS_TOKEN` setting is removed.
